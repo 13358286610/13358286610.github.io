@@ -30,8 +30,8 @@ button { font: inherit; }
 .profile-card { position: sticky; top: 82px; }
 .profile-intro { padding: 22px 20px 20px; }
 .profile-photo { display: block; width: 170px; height: 203px; margin: 0 auto 18px; object-fit: cover; object-position: center 20%; border-radius: 3px; background: #f1f1ee; }
-.profile-name { margin: 0 0 9px; font-size: 30px; line-height: 1.1; letter-spacing: -.035em; white-space: nowrap; }
-.profile-name span { margin-left: 4px; color: var(--green); font-size: 16px; letter-spacing: 0; }
+.profile-name { margin: 0 0 9px; font-size: 27px; line-height: 1.1; letter-spacing: -.035em; white-space: nowrap; }
+.profile-name span { margin-left: 1px; color: var(--green); font-size: 16px; letter-spacing: 0; }
 .profile-role { margin: 0 0 7px; font: 700 13px/1.65 Arial, "Segoe UI", sans-serif; }
 .profile-location { margin: 0; color: var(--muted); font: 12px/1.55 Arial, "Segoe UI", sans-serif; }
 .profile-details { margin: 0; padding: 15px 20px 0; border-top: 1px solid var(--line); }
@@ -72,7 +72,7 @@ button { font: inherit; }
 .site-footer a { color: inherit; }
 @media (max-width: 1000px) {
   .page-shell { grid-template-columns: 240px minmax(0, 1fr); gap: 24px; }
-  .profile-name { font-size: 26px; }
+  .profile-name { font-size: 23px; }
   .profile-name span { font-size: 14px; }
   .content-panel { padding: 28px; }
   .research-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }

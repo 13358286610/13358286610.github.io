@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#17425c" />
+    <meta name="description" content="个人学术主页：研究方向、论文、项目与动态。" />
+    <title>Maojiang Lin.GitHub.io</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳转到正文</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#home" id="brand">Maojiang Lin.GitHub.io</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="打开导航菜单">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="主导航">
+          <a href="#home">Home</a>
+          <a href="#publications">Publications</a>
+          <a href="#projects">Projects</a>
+          <a href="#achievements">Research Achievement</a>
+          <a href="#team">Team</a>
+          <a href="#news">News</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="layout" id="home">
+      <aside class="profile" aria-label="个人资料">
+        <div class="avatar" id="avatar" aria-label="个人头像"><span id="initials">YN</span></div>
+        <h2 id="profile-name">Your Name</h2>
+        <p class="profile-role" id="profile-role">研究人员</p>
+        <div class="profile-divider"></div>
+        <ul class="profile-links" id="profile-links"></ul>
+      </aside>
+
+      <main id="main">
+        <div class="eyebrow">ACADEMIC HOMEPAGE</div>
+        <h1 class="page-heading" id="page-heading">Your Name</h1>
+        <section class="hero" aria-labelledby="hero-name">
+          <div class="hero-grain" aria-hidden="true"></div>
+          <p class="hero-institution" id="hero-institution">YOUR UNIVERSITY</p>
+          <h2 id="hero-name">Your Name <span>你的姓名</span></h2>
+          <p class="hero-role" id="hero-role">研究人员 · Researcher</p>
+          <p class="hero-unit" id="hero-unit">你的学院或实验室</p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#publications">Selected publications <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="#about">了解更多 <span aria-hidden="true">↓</span></a>
+          </div>
+        </section>
+
+        <section class="content-section" id="about" aria-labelledby="about-heading">
+          <div class="section-heading"><span class="section-number">01</span><h2 id="about-heading">About <small>关于我</small></h2></div>
+          <p class="lead" id="about-text">请在 content.js 中填写你的学术经历、研究兴趣与当前工作。</p>
+          <div class="research-grid" id="research-grid"></div>
+        </section>
+
+        <section class="content-section" id="publications" aria-labelledby="publications-heading">
+          <div class="section-heading"><span class="section-number">02</span><h2 id="publications-heading">Publications <small>代表论文</small></h2></div>
+          <div class="entry-list" id="publications-list"></div>
+        </section>
+
+        <section class="content-section" id="projects" aria-labelledby="projects-heading">
+          <div class="section-heading"><span class="section-number">03</span><h2 id="projects-heading">Projects <small>研究项目</small></h2></div>
+          <div class="card-grid" id="projects-list"></div>
+        </section>
+
+        <section class="content-section" id="achievements" aria-labelledby="achievements-heading">
+          <div class="section-heading"><span class="section-number">04</span><h2 id="achievements-heading">Research Achievement <small>学术成果</small></h2></div>
+          <div class="entry-list" id="achievements-list"></div>
+        </section>
+
+        <section class="content-section" id="team" aria-labelledby="team-heading">
+          <div class="section-heading"><span class="section-number">05</span><h2 id="team-heading">Team <small>团队</small></h2></div>
+          <div class="card-grid" id="team-list"></div>
+        </section>
+
+        <section class="content-section" id="news" aria-labelledby="news-heading">
+          <div class="section-heading"><span class="section-number">06</span><h2 id="news-heading">News <small>最新动态</small></h2></div>
+          <div class="entry-list" id="news-list"></div>
+        </section>
+
+        <footer class="site-footer"><span id="footer-name">Your Name</span> · <span id="footer-year"></span><br /><span>Inspired by a classic academic homepage layout. Built for GitHub Pages.</span></footer>
+      </main>
+    </div>
+    <script src="content.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

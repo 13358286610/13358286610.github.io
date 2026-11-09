@@ -1,36 +1,29 @@
-// Edit this file to update the homepage content.
-// Keep a section as an empty array [] until you have verified items to publish.
+// Edit verified facts here. Empty arrays remain clearly marked on the website.
 window.homepageContent = {
   siteTitle: "Maojiang Lin.GitHub.io",
   nameEn: "Maojiang Lin",
   nameZh: "林茂将",
-  title: "First-year Master's Student in Computer Technology",
-  profileTitle: "Master's Student in Computer Technology, WHUT",
+  role: "First-year Master's Student in Computer Technology",
   institution: "Wuhan University of Technology",
-  unit: "Research Area: Log Anomaly Detection",
-  city: "Wuhan",
+  location: "Wuhan, China",
   email: "lin_maojiang@whut.edu.cn",
+  focus: "Log anomaly detection",
   github: "https://github.com/13358286610",
-  scholar: "",
-  orcid: "",
   photo: "assets/profile.jpg",
-  about: "I am a first-year master's student in Computer Technology at Wuhan University of Technology. My research focuses on log anomaly detection. This website will present my research work and academic updates as they become available.",
+  about: "I am a first-year master's student in Computer Technology at Wuhan University of Technology. My research focuses on log anomaly detection.",
   researchAreas: [
-    { title: "Log Anomaly Detection", description: "Research focus in computer technology." }
+    { title: "Log Anomaly Detection" }
   ],
   publications: [
-    // { year: "2026", title: "Paper title", authors: "Author A, Author B", venue: "Conference or journal", url: "https://doi.org/..." }
+    // { year: "2026", venue: "Conference or journal", title: "Paper title", authors: "Author A, Author B", links: [{ label: "Paper", url: "https://..." }] }
   ],
   projects: [
-    // { period: "2025–2027", title: "Project title", description: "Project summary", url: "" }
+    // { period: "2026", title: "Project title", description: "Short description" }
   ],
-  achievements: [
-    // { year: "2026", title: "Award or achievement", description: "Short description", url: "" }
+  honors: [
+    // { period: "2026", title: "Award title", organization: "Awarding institution" }
   ],
-  team: [
-    // { role: "Student", name: "Name", description: "Research area", url: "" }
-  ],
-  news: [
-    // { date: "2026-11", title: "News title", description: "Short description", url: "" }
+  education: [
+    { period: "Current", title: "M.S. in Computer Technology", institution: "Wuhan University of Technology" }
   ]
 };

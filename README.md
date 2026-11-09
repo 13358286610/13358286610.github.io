@@ -1,15 +1,13 @@
 # Maojiang Lin | 林茂将
 
-Academic homepage of Maojiang Lin, a first-year master's student in Computer Technology at Wuhan University of Technology. Research area: log anomaly detection.
+Personal academic homepage for Maojiang Lin, a first-year master's student in Computer Technology at Wuhan University of Technology. The layout uses a restrained academic style with a profile card and a single-page research portfolio.
 
-This is a static website for GitHub Pages, with a layout inspired by a classic academic homepage. The code and content are independently written.
+## Update content
 
-## Update the website
+Edit `content.js` to change profile information or add verified research interests, publications, projects, and honors. The education entry reflects the currently supplied details. The portrait is stored at `assets/profile.jpg`.
 
-Edit `content.js` for the profile, research interests, publications, projects, achievements, team, and news. Sections without entries display a short placeholder. The profile photo is `assets/profile.jpg`.
+The page is built with plain HTML, CSS, and JavaScript. No build command or dependencies are needed.
 
-The visual layout is defined in `styles.css` and `reference-layout.css`. There are no build dependencies.
+## Publishing
 
-## GitHub Pages
-
-This repository is published at [13358286610.github.io](https://13358286610.github.io/). GitHub Pages serves the `main` branch from the repository root. Commit and push changes to update the public site.
+The `main` branch is published with GitHub Pages at [13358286610.github.io](https://13358286610.github.io/). Push a commit to update the public site.

@@ -3,88 +3,83 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#17425c" />
-    <meta name="description" content="Academic homepage of Maojiang Lin: research, publications, projects, and news." />
+    <meta name="theme-color" content="#f5f4ef" />
+    <meta name="description" content="Academic homepage of Maojiang Lin, a master's student in Computer Technology at Wuhan University of Technology." />
     <title>Maojiang Lin.GitHub.io</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="reference-layout.css" />
   </head>
-  <body>
+  <body id="top">
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="header-inner">
-        <a class="brand" href="#home" id="brand">Maojiang Lin <span>| 林茂将</span></a>
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation menu">
-          <span></span><span></span><span></span>
-        </button>
-        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
-          <a href="#home">Home</a>
+        <a class="brand" href="#top" id="brand">Maojiang Lin <span>林茂将</span></a>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
           <a href="#publications">Publications</a>
           <a href="#projects">Projects</a>
-          <a href="#achievements">Research Achievement</a>
-          <a href="#team">Team</a>
-          <a href="#news">News</a>
+          <a href="#honors">Honors</a>
         </nav>
       </div>
     </header>
 
-    <div class="layout" id="home">
-      <aside class="profile" aria-label="Profile">
-        <div class="avatar" id="avatar" aria-label="Profile photo"><span id="initials">YN</span></div>
-        <h2 id="profile-name">Your Name</h2>
-        <p class="profile-role" id="profile-role">Master's Student in Computer Technology</p>
-        <div class="profile-divider"></div>
-        <ul class="profile-links" id="profile-links"></ul>
+    <div class="page-shell">
+      <aside class="profile-card" aria-label="Profile">
+        <div class="profile-intro">
+          <img class="profile-photo" id="profile-photo" src="assets/profile.jpg" alt="Portrait of Maojiang Lin" />
+          <h1 class="profile-name" id="profile-name">Maojiang Lin <span>林茂将</span></h1>
+          <p class="profile-role" id="profile-role">First-year Master's Student in Computer Technology</p>
+          <p class="profile-location" id="profile-location">Wuhan University of Technology · Wuhan, China</p>
+        </div>
+        <dl class="profile-details">
+          <div class="detail-row">
+            <dt>Email</dt>
+            <dd><a id="email-link" href="mailto:lin_maojiang@whut.edu.cn">lin_maojiang@whut.edu.cn ↗</a></dd>
+          </div>
+          <div class="detail-row">
+            <dt>Focus</dt>
+            <dd id="focus-text">Log anomaly detection</dd>
+          </div>
+        </dl>
+        <div class="profile-social"><a id="github-link" href="https://github.com/13358286610" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
       </aside>
 
-      <main id="main">
-        <h1 class="page-heading" id="page-heading">Your Name</h1>
-        <section class="hero" aria-labelledby="hero-name">
-          <p class="hero-institution" id="hero-institution">YOUR UNIVERSITY</p>
-          <h2 id="hero-name">Maojiang Lin <span>林茂将</span></h2>
-          <p class="hero-role" id="hero-role">Master's Student in Computer Technology</p>
-          <p class="hero-unit" id="hero-unit">Research Area: Log Anomaly Detection</p>
-          <div class="hero-actions">
-            <a class="button button-light" href="#publications">Selected publications <span aria-hidden="true">↗</span></a>
-            <a class="button button-outline" href="#about">About me</a>
-          </div>
+      <main class="content-panel" id="main">
+        <section class="content-section" id="about" aria-labelledby="about-title">
+          <div class="section-title"><span class="section-number">01</span><h2 id="about-title">About</h2></div>
+          <p class="about-copy" id="about-copy">I am a first-year master's student in Computer Technology at Wuhan University of Technology. My research focuses on log anomaly detection.</p>
         </section>
 
-        <section class="content-section" id="about" aria-labelledby="about-heading">
-          <div class="section-heading"><span class="section-number">01</span><h2 id="about-heading">About</h2></div>
-          <p class="lead" id="about-text">Research interests and academic background.</p>
-          <div class="research-grid" id="research-grid"></div>
+        <section class="content-section" id="research" aria-labelledby="research-title">
+          <div class="section-title"><span class="section-number">02</span><h2 id="research-title">Research Interests</h2></div>
+          <div class="research-grid" id="research-list"></div>
         </section>
 
-        <section class="content-section" id="publications" aria-labelledby="publications-heading">
-          <div class="section-heading"><span class="section-number">02</span><h2 id="publications-heading">Publications</h2></div>
-          <div class="entry-list" id="publications-list"></div>
+        <section class="content-section" id="publications" aria-labelledby="publications-title">
+          <div class="section-title"><span class="section-number">03</span><h2 id="publications-title">Selected Publications</h2></div>
+          <div class="record-list" id="publications-list"></div>
         </section>
 
-        <section class="content-section" id="projects" aria-labelledby="projects-heading">
-          <div class="section-heading"><span class="section-number">03</span><h2 id="projects-heading">Projects</h2></div>
-          <div class="card-grid" id="projects-list"></div>
+        <section class="content-section" id="projects" aria-labelledby="projects-title">
+          <div class="section-title"><span class="section-number">04</span><h2 id="projects-title">Projects</h2></div>
+          <div class="record-list" id="projects-list"></div>
         </section>
 
-        <section class="content-section" id="achievements" aria-labelledby="achievements-heading">
-          <div class="section-heading"><span class="section-number">04</span><h2 id="achievements-heading">Research Achievement</h2></div>
-          <div class="entry-list" id="achievements-list"></div>
+        <section class="content-section" id="honors" aria-labelledby="honors-title">
+          <div class="section-title"><span class="section-number">05</span><h2 id="honors-title">Honors</h2></div>
+          <div class="record-list" id="honors-list"></div>
         </section>
 
-        <section class="content-section" id="team" aria-labelledby="team-heading">
-          <div class="section-heading"><span class="section-number">05</span><h2 id="team-heading">Team</h2></div>
-          <div class="card-grid" id="team-list"></div>
+        <section class="content-section" id="education" aria-labelledby="education-title">
+          <div class="section-title"><span class="section-number">06</span><h2 id="education-title">Education</h2></div>
+          <div class="record-list" id="education-list"></div>
         </section>
-
-        <section class="content-section" id="news" aria-labelledby="news-heading">
-          <div class="section-heading"><span class="section-number">06</span><h2 id="news-heading">News</h2></div>
-          <div class="entry-list" id="news-list"></div>
-        </section>
-
-        <footer class="site-footer"><span id="footer-name">Your Name</span> · <span id="footer-year"></span><br /><span>Inspired by a classic academic homepage layout. Built for GitHub Pages.</span></footer>
       </main>
     </div>
+
+    <footer class="site-footer"><span id="copyright">© 2026 Maojiang Lin</span><a href="mailto:lin_maojiang@whut.edu.cn" id="footer-email">lin_maojiang@whut.edu.cn</a></footer>
     <script src="content.js"></script>
     <script src="script.js"></script>
   </body>

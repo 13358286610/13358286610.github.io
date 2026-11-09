@@ -6,11 +6,12 @@ window.homepageContent = {
   role: "First-year Master's Student in Computer Technology",
   institution: "Wuhan University of Technology",
   location: "Wuhan, China",
+  advisor: { name: "Prof. Junwei Zhou", url: "https://junwzhou.github.io/" },
   email: "lin_maojiang@whut.edu.cn",
   focus: "Log anomaly detection",
   github: "https://github.com/13358286610",
   photo: "assets/profile.jpg",
-  about: "I am a first-year master's student in Computer Technology at Wuhan University of Technology. My research focuses on log anomaly detection.",
+  about: "I am a first-year master's student in Computer Technology at Wuhan University of Technology, advised by Prof. Junwei Zhou. My research focuses on log anomaly detection.",
   researchAreas: [
     { title: "Log Anomaly Detection" }
   ],

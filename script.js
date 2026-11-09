@@ -27,6 +27,12 @@
   setText("profile-location", [data.institution, data.location].filter(Boolean).join(" · "));
   setText("focus-text", data.focus);
   setText("about-copy", data.about);
+  if (data.advisor && data.advisor.name && data.advisor.url) {
+    byId("advisor-link").href = data.advisor.url;
+    byId("advisor-link").textContent = `${data.advisor.name} ↗`;
+  } else {
+    byId("advisor-row").remove();
+  }
   byId("profile-photo").src = data.photo || "assets/profile.jpg";
   byId("profile-photo").alt = `Portrait of ${name}`;
   const email = data.email || "";

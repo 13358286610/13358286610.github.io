@@ -4,7 +4,7 @@ Personal academic homepage for Maojiang Lin, a first-year master's student in Co
 
 ## Update content
 
-Edit `content.js` to change profile information or add verified research interests, publications, projects, and honors. The education entry reflects the currently supplied details. The portrait is stored at `assets/profile.jpg`.
+Edit `content.js` to change profile and advisor information or add verified research interests, publications, projects, and honors. The education entry reflects the currently supplied details. The portrait is stored at `assets/profile.jpg`.
 
 The page is built with plain HTML, CSS, and JavaScript. No build command or dependencies are needed.
 
